@@ -1,0 +1,37 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 1fr 40px;
+}
+
+
+
+.header{
+    grid-column: 1 / -1;
+    background-color: rgb(36, 204, 100);
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+}
+.menu{
+
+    background-color: rgb(71, 156, 253);
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+}
+.contain{
+    grid-column: 2 / -1;
+    background-color: rgb(6, 151, 144);
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+}
+.footer{
+    grid-column: 1 /-1;
+    background-color: rgb(150, 150, 150);
+    font-size:xx-large;
+    text-align: center;
+    color: white;
+}
