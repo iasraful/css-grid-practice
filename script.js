@@ -57,5 +57,7 @@ const ami = items.reduce((sum, number) =>{
 
 const fName = "Asraful";
 const lName = "Islam";
-console.log(`${fName} ${lName}`);
+// console.log(`${fName} ${lName}`);
 
+const date = new Date()
+console.log(date);
