@@ -55,4 +55,7 @@ const ami = items.reduce((sum, number) =>{
     return sum + number.price           
 }, 0)
 
-console.log(ami);
+const fName = "Asraful";
+const lName = "Islam";
+console.log(`${fName} ${lName}`);
+
