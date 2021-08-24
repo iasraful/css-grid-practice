@@ -1,46 +1,46 @@
-// function any(variable) {
-//     console.log(variable)
-// }
-// function result(name, callback) {
-//     callback("Hello " + name);
-// }
-// result("Kayel", any)
+function any(variable) {
+    console.log(variable)
+}
+function result(name, callback) {
+    callback("Hello " + name);
+}
+result("Kayel", any)
 
-// let printHi = name => "Hi " + name
+ let printHi = name => "Hi " + name
 
 // console.log(printHi("Kayel"));
 
-// const newArr = ["a", "b", "c", "d", "e"]
+const newArr = ["a", "b", "c", "d", "e"]
 // console.log(newArr[2]);
 
-// const a = [
-// [1, 2, 3, 4, 5],
-// [6, 7, 8, 9, 10], 
-// [11, 12, 13, 14, 15]  //opt 4, 8, 11
-// ]
+const a = [
+[1, 2, 3, 4, 5],
+[6, 7, 8, 9, 10], 
+[11, 12, 13, 14, 15]  //opt 4, 8, 11
+]
 // console.log(a[0][3]);
 // console.log(a[1][2]);
 // console.log(a[2][0]);
 
     // Simflied Class: 29 number lecture
 
-// const car = {
-//     make: "Made in Japan",
-//     model: "Honda Cevic Type-R",
-//     isUsed: false,
-//     makeNois(){
-//         console.log("Vroom");
-//     }
-// }
+const car = {
+    make: "Made in Japan",
+    model: "Honda Cevic Type-R",
+    isUsed: false,
+    makeNois(){
+        console.log("Vroom");
+    }
+}
 // console.log(car);
-// car.makeNois()
-// const book = {
-//     titel: "A Thousend Years",
-//     Author: {
-//         name: "Asraful Islam",
-//         age: 23
-//     }
-// }
+car.makeNois()
+const book = {
+    titel: "A Thousend Years",
+    Author: {
+        name: "Asraful Islam",
+        age: 23
+    }
+}
 // console.log(book.Author.name);\
 
 const items = [
@@ -59,5 +59,14 @@ const fName = "Asraful";
 const lName = "Islam";
 // console.log(`${fName} ${lName}`);
 
+
+// Lesson 33  new & this Keywords / Constructor part start==>>
 const date = new Date()
-console.log(date);
+
+function User (name, age){
+    this.name = name
+    this.age = age
+    this.human = true
+}
+const user = new User("Asraful", 22)
+console.log(user);
