@@ -8,12 +8,12 @@ buttons.forEach(button =>{
 })
  
 // same like top This is my 2nd Practice for TUTORIAL--41
-buttons.forEach(button =>{
-    button.addEventListener("click", () =>{
-        const myPractice = (parseInt(button.dataset.clicks))
-        button.dataset.clicks = myPractice + 1
-    })
-})
+// buttons.forEach(button =>{
+//     button.addEventListener("click", () =>{
+//         const myPractice = (parseInt(button.dataset.clicks))
+//         button.dataset.clicks = myPractice + 1
+//     })
+// })
    
 
 
